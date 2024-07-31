@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin-Dashboard</title>
+    <!-- link with css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link to favicon -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">   
+     <!-- link with fontawesome -->
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-54e7be3a62ca9b7580d7f8c669f59e74.css?vsn=d"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="admindek">
+        <img src="assets/images/side-bar/logo.png" alt="" />
+      </div>
+      <div class="navigation sidebar-headings">
+        <h5>Navigation</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-regular fa-home"></i>
+                <h5>Dashboard</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Default</a>
+              <a href="#">CRM</a>
+              <a href="#">Analytics</a>
+            </div>
+          </div>
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-regular fa-table-layout"></i>
+                <h5>Page Layouts</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Vertical</a>
+              <a href="#">Horizental</a>
+              <a href="#">Bottom Menu</a>
+            </div>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-regular fa-bars"></i>
+              <h5>Navigation</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-light fa-layer-group"></i>
+                <h5>Widget</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Static</a>
+              <a href="#">Data</a>
+              <a href="#">Chart Widget</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uielement sidebar-headings">
+        <h5>UI Element</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-sharp fa-light fa-cube"></i>
+                <h5>Basic</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Alert</a>
+              <a href="#">Breadcrumbs</a>
+              <a href="#">Button</a>
+              <a href="#">Box-Shadow</a>
+              <a href="#">Accordion</a>
+              <a href="#">Generic Class</a>
+              <a href="#">Tabs </a>
+              <a href="#">Color</a>
+              <a href="#">Label Badge</a>
+              <a href="#">Progress Bar</a>
+              <a href="#">List</a>
+              <a href="#">Tooltip & Popover</a>
+              <a href="#">Typography</a>
+              <a href="#">Other</a>
+            </div>
+          </div>
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-brands fa-gitlab"></i>
+                <h5>Advance</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Dragable</a>
+              <a href="#">Model</a>
+              <a href="#">Notification</a>
+              <a href="#">Rating</a>
+              <a href="#">Range Slider</a>
+              <a href="#">Slider</a>
+              <a href="#">Syntax Highlighter</a>
+              <a href="#">Tour</a>
+              <a href="#">Tree View</a>
+              <a href="#">Nestable</a>
+              <a href="#">Toolbar</a>
+            </div>
+          </div>
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-light fa-cubes"></i>
+                <h5>Extra</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Session Timeout</a>
+              <a href="#">Session Idle Timeout</a>
+              <a href="#">Offline</a>
+            </div>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-aperture fa-spin"></i>
+              <h5>Animations</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-regular fa-command"></i>
+                <h5>Icons</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Fontawesome</a>
+              <a href="#">Themify</a>
+              <a href="#">Simple Line Icon</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="forms sidebar-headings">
+        <h5>Forms</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <button class="dropdown-btn flex">
+              <div class="flex">
+                <i class="fa-light fa-box-archive"></i>
+                <h5>Form</h5>
+              </div>
+              <div class="p-x">
+                <i class="fa-regular fa-chevron-down"></i>
+              </div>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Components</a>
+              <a href="#">Add-On</a>
+              <a href="#">Advance</a>
+              <a href="#">Validation</a>
+            </div>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-pen-to-square"></i>
+              <h5>Form Picker</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-sharp fa-light fa-feather"></i>
+              <h5>Form Select</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-sharp fa-light fa-shield"></i>
+              <h5>Form Masking</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-tv-retro"></i>
+              <h5>Form Wizard</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="tables sidebar-headings">
+        <h5>Tables</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-credit-card"></i>
+              <h5>Bootstrap Table</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-inbox"></i>
+              <h5>Data Table</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-server"></i>
+              <h5>DT Extensions</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-hashtag"></i>
+              <h5>Foo Table</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-airplay"></i>
+              <h5>Handson Table</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-pen-to-square"></i>
+              <h5>Editable Table</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="charts-and-maps sidebar-headings">
+        <h5>Charts-and-Maps</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-chart-pie-simple"></i>
+              <h5>Charts</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-map"></i>
+              <h5>Maps</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="pages sidebar-headings">
+        <h5>Pages</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-unlock"></i>
+              <h5>Authentication</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-sliders-up"></i>
+              <h5>Maintenance</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-envelope"></i>
+              <h5>Email</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="app sidebar-headings">
+        <h5>App</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-bookmark"></i>
+              <h5>To-Do</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="extensions sidebar-headings">
+        <h5>Extensions</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-file-circle-plus"></i>
+              <h5>Editor</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-calendar"></i>
+              <h5>Event Calender</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-scissors"></i>
+              <h5>Image Cropper</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-cloud-arrow-up"></i>
+              <h5>File Upload</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-briefcase"></i>
+              <h5>Change Loops</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="other sidebar-headings">
+        <h5>Other</h5>
+        <div class="sidebar-links-container">
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-regular fa-list-ul"></i>
+              <h5>Menu Levels</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-power-off"></i>
+              <h5>Disabled Menu</h5>
+            </a>
+          </div>
+          <div class="sidebar-links">
+            <a href="" class="flex">
+              <i class="fa-light fa-watch"></i>
+              <h5>Sample Page</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-container">
+      <!-- search bar -->
+      <div class="search-bar flex">
+        <div class="search-and-zoom flex">
+          <div class="search">
+            <button class="clear-btn"><i class="far fa-times"></i></button>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Keyword"
+            />
+            <button class="search-btn"><i class="far fa-search"></i></button>
+          </div>
+          <div class="zoom">
+            <button><i class="fa-sharp fa-regular fa-expand"></i></button>
+          </div>
+        </div>
+        <div class="notfication-message-profile">
+          <button><i class="fa-light fa-bell"></i></button>
+          <button><i class="fa-light fa-message"></i></button>
+          <div class="profile flex">
+            <img
+              src="assets/images/search-bar/avatar-4.jpg"
+              alt="profile pic"
+            />
+            <h4>John Doe</h4>
+            <button><i class="fa-sharp fa-regular fa-chevron-down"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <!-- dashboard -->
+        <div class="dashboard flex">
+          <div class="dashboard-img-text">
+            <i class="fa-regular fa-house"></i>
+            <h4>DASHBOARD</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          </div>
+          <div class="dashboard-home-link flex">
+            <a href=""><i class="fa-regular fa-house"></i></a>
+            <span>/</span>
+            <h5>DASHBOARD</h5>
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row">
+          <div class="column1">
+            <h4>Deals Analytics</h4>
+            <div class="big-box">
+              <img src="assets/images/dashboard/graphs.png" alt="" />
+            </div>
+          </div>
+          <div class="column2">
+            <div class="small-box flex">
+              <div class="small-box-column1">
+                <h6>Impressions</h6>
+                <h3 class="blue">1,563</h3>
+                <p>May 23 - June 01 (2017)</p>
+              </div>
+              <div class="small-box-column2">
+                <i class="fa-sharp fa-solid fa-eye bg-blue"></i>
+              </div>
+            </div>
+            <div class="small-box flex">
+              <div class="small-box-column1">
+                <h6>Goal</h6>
+                <h3 class="green">30,304</h3>
+                <p>May 23 - June 01 (2017)</p>
+              </div>
+              <div class="small-box-column2">
+                <i class="fa-sharp fa-solid fa-eye bg-green"></i>
+              </div>
+            </div>
+            <div class="small-box flex">
+              <div class="small-box-column1">
+                <h6>Impact</h6>
+                <h3 class="orange">42.6%</h3>
+                <p>May 23 - June 01 (2017)</p>
+              </div>
+              <div class="small-box-column2">
+                <i class="fa-sharp fa-solid fa-eye bg-orange"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- projects tasks -->
+        <div class="project-task-container">
+          <div class="project-task">
+            <div class="project-task-box">
+              <h6>Published Project</h6>
+              <h5>532<span class="green">+1.69%</span></h5>
+              <div class="slider-container">
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="25"
+                  class="slider-red"
+                  id="myRange"
+                />
+              </div>
+            </div>
+            <div class="project-task-box">
+              <h6>Completed Task</h6>
+              <h5>4,569<span class="red">-0.5%%</span></h5>
+              <div class="slider-container">
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="25"
+                  class="slider-blue"
+                  id="myRange"
+                />
+              </div>
+            </div>
+            <div class="project-task-box">
+              <h6>successfull Task</h6>
+              <h5>89%<span class="green">+0.99%</span></h5>
+              <div class="slider-container">
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="25"
+                  class="slider-green"
+                  id="myRange"
+                />
+              </div>
+            </div>
+            <div class="project-task-box">
+              <h6>Ongoing Project</h6>
+              <h5>365<span class="green">+0.35%</span></h5>
+              <div class="slider-container">
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value="25"
+                  class="slider-orange"
+                  id="myRange"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sales whats,new activity -->
+        <div class="sales-whatsnew-activity">
+            <div class="activity">
+              <div class="card-header">
+                <h5>Sales</h5>
+              </div>
+              <div class="x-line"> </div>
+              <div class="card-block">
+                <div class="y-line"></div>
+                <div class="card-block-row">
+                  <div class="card-block-icon">
+                    <i class="fa-sharp fa-solid fa-check bg-orange border-light-orange"></i>
+                  </div>
+                  <div class="card-block-text">
+                    <h6>Development & Update</h6>
+                    <p>johny michel</p>
+                  </div>
+                </div>
+                <div class="card-block-row">
+                  <div class="card-block-icon">
+                    <i class="fa-light fa-briefcase bg-blue border-light-blue"></i>
+                  </div>
+                  <div class="card-block-text">
+                    <h6>
+                      Showcases
+                      </h6>
+                    <p>Lorem ipsum dolor sit. <a href="" class="blue">More</a></p>
+                  </div>
+                </div>
+                <div class="card-block-row">
+                  <div class="card-block-icon">
+                    <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                      </div>
+                  <div class="card-block-text">
+                    <h6>
+                      Miscellaneous
+                      </h6>
+                    <p>Lorem ipsum dolor sit amet consectetur. <a href="" class="green">More</a></p>
+                  </div>
+                </div>
+                <div class="card-block-row">
+                  <div class="card-block-icon">
+                    <i class="fa-light fa-briefcase bg-red border-light-red"></i>
+                  </div>
+                  <div class="card-block-text">
+                    <h6>
+                      Showcases
+                      </h6>
+                    <p>Lorem ipsum dolor sit. <a href="" class="blue">More</a></p>
+                  </div>
+                </div>
+                <div class="card-block-row">
+                  <div class="card-block-icon">
+                    <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                      </div>
+                  <div class="card-block-text">
+                    <h6>
+                      Miscellaneous
+                      </h6>
+                    <p>Lorem ipsum dolor sit amet consectetur. <a href="" class="green">More</a></p>
+                  </div>
+                </div>
+                <div class="card-block-row">
+                  <div class="card-block-icon">
+                    <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                      </div>
+                  <div class="card-block-text">
+                    <h6>Development & Update</h6>
+                    <p>johny michel</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="whatsnew">
+            <div class="card-header">
+              <h5>What,s New</h5>
+            </div>
+            <div class="x-line"> </div>
+            <div class="card-block">
+              <div class="y-line"></div>
+              <div class="card-block-row">
+                <div class="card-block-img">
+                  <img src="assets/images/sales-whatsnew-activiy/graphs.png" alt="" style="width: 40px;height: 40px;">
+                </div>
+                <div class="card-block-text">
+                  <h6>Your Manager Posted.</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-light fa-briefcase bg-red border-light-red"></i>
+                </div>
+                <div class="card-block-text">
+                  <h6>You have three pending tasks.</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                    </div>
+                <div class="card-block-text">
+                  <h6>Your Manager Posted.</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-img">
+                  <img src="assets/images/sales-whatsnew-activiy/graphs.png" alt="" style="width: 40px;height: 40px;">
+                </div>
+                <div class="card-block-text">
+                  <h6>Your Manager Posted.</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-light fa-briefcase bg-red border-light-red"></i>
+                </div>
+                <div class="card-block-text">
+                  <h6>You have three pending tasks.</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                    </div>
+                <div class="card-block-text">
+                  <h6>Your Manager Posted.</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="activity">
+            <div class="card-header">
+              <h5>Latest Activity</h5>
+            </div>
+            <div class="x-line"> </div>
+            <div class="card-block">
+              <div class="y-line"></div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-sharp fa-solid fa-check bg-orange border-light-orange"></i>
+                </div>
+                <div class="card-block-text">
+                  <h6>Development & Update</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-light fa-briefcase bg-blue border-light-blue"></i>
+                </div>
+                <div class="card-block-text">
+                  <h6>
+                    Showcases
+                    </h6>
+                  <p>Lorem ipsum dolor sit. <a href="" class="blue">More</a></p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                    </div>
+                <div class="card-block-text">
+                  <h6>
+                    Miscellaneous
+                    </h6>
+                  <p>Lorem ipsum dolor sit amet consectetur. <a href="" class="green">More</a></p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-light fa-briefcase bg-red border-light-red"></i>
+                </div>
+                <div class="card-block-text">
+                  <h6>
+                    Showcases
+                    </h6>
+                  <p>Lorem ipsum dolor sit. <a href="" class="blue">More</a></p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                    </div>
+                <div class="card-block-text">
+                  <h6>
+                    Miscellaneous
+                    </h6>
+                  <p>Lorem ipsum dolor sit amet consectetur. <a href="" class="green">More</a></p>
+                </div>
+              </div>
+              <div class="card-block-row">
+                <div class="card-block-icon">
+                  <i class="fa-sharp fa-solid fa-check bg-green border-light-green"></i>
+                    </div>
+                <div class="card-block-text">
+                  <h6>Development & Update</h6>
+                  <p>johny michel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
