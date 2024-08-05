@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  
+  }
+  /* classes */
+  
+  /* HEADER */
+  header {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .submit-signin a {
+    padding: 10px 10px;
+    color: #0072EF;
+    font-size: 17px;
+    border: 2px solid #00000000;
+  }
+  .submit-signin a:hover {
+    border: 2px solid #0072EF;
+    border-radius: 5px;
+  }
+  @media(max-width:555px){
+      header{
+          padding: 20px;
+      }
+  }
+  @media(max-width:418px){
+      header{
+          display: block;
+      }
+      .logo{
+          text-align: center;
+          padding: 0 0 20px 0;
+      }
+      .submit-signin{
+          display: flex;
+          justify-content: space-between;
+      }
+  }
+  
+  /* BREADCRUMB */
+  .breadcrumb{
+      margin: 20px 0 0 0;
+      display: flex;
+      padding: 10px 50px;
+      justify-content: space-between;
+  }
+  .link{
+      display: flex;
+      margin: auto 0;
+      text-align: center;
+  }
+  .link a{
+      color: #0072EF;
+  }
+  .link span{
+      padding: 0 4px;
+  }
+  .link p{
+      color: #aaaaaa;
+  }
+  .search{
+      display: flex;
+      position: relative;
+  }
+  .search i{
+      position: absolute;
+      font-size: 20px;
+      color: #ccc;
+      top: 15px;
+      left: 14px;
+  }
+  .search input{
+      width: 230px;
+      border: 2px solid #cccccc;
+      padding: 12px 40px;
+      border-radius: 20px;
+      /* margin: 0 5px; */
+  }
+  @media(max-width:670px){
+      .breadcrumb{
+          display: block;
+          text-align: center;
+      }
+      .search input{
+          width: 100%;
+      }
+      .link{
+          margin: 0 0 15px 0;
+          width: 50%;
+          justify-content: space-between;
+          margin: 15px auto;
+      }
+  }
+  @media(max-width:555px){
+      .link{
+          width: 70%;
+      }
+      .breadcrumb{
+          padding: 20px;
+      }
+      .homey-inner-pages{
+        padding: 0 20px;
+      }
+  }
+  @media(max-width:400px){
+      .link{
+          width: 100%;
+      }
+  }
+  
+  /* HOMEY / HOUZEZ */
+  .houzez-homey {
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    margin: auto;
+    padding: 100px 0;
+    grid-gap: 4%;
+    border-bottom: 3px solid #eeeeee;
+  }
+  .houzez-homey a:hover {
+    background-color: #0072EF;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .houzez-homey a:hover span,
+  .houzez-homey a:hover p {
+    color: #fff;
+  }
+  .houzez,
+  .homey {
+    text-align: center;
+    border: 2px solid #0072EF;
+    padding: 40px 0;
+    border-radius: 10px;
+  }
+  .houzez p,
+  .homey p {
+    font-size: 38px;
+    color: #0072EF;
+    margin: 0 0 20px 0;
+  }
+  .houzez span,
+  .homey span {
+    font-size: 22px;
+    color: #0072EF;
+  }
+  @media(max-width:650px){
+      .houzez p,.homey p{
+          font-size: 20px;
+      }
+      .houzez span,
+  .homey span {
+    font-size: 15px;
+  }
+  }
+  
+  /* FOOTER */
+  footer {
+    margin: 100px 0 0 0;
+    border-top: 5px solid #eeeeee;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer p {
+    font-size: 19px;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  @media(max-width:390px){
+      footer{
+          display: block;
+          text-align: center;
+      }
+      footer p{
+          margin:0 0 20px 0;
+      }
+  }
+  
+  /* submit */
+  .submit{
+      margin: 50px 0;
+  }
+  .submit h1{
+      text-align: center;
+  }
+  .submit form{
+      max-width: 70%;
+      margin: auto;
+  }
+  .submit form input{
+      padding: 15px 20px;
+      border-radius: 5px;
+      width:95%;
+      border:2px solid #dddddd;
+  }
+  .submit form p{
+      font-size: 18px;
+      font-weight: bold;
+      margin:30px 0 10px 0;
+  }
+  .form-select{
+      position: relative;
+  }
+  .submit form select{
+      padding: 15px;
+      border-radius: 5px;
+      width: 100%;
+      border: 2px solid #dddddd;
+  }
+  .submit form select option{
+      font-size: 18px;
+  }
+  .submit form select option:hover{
+      background-color: #7a7a7a1f;
+  }
+  .description{
+      padding: 50px 20px;
+  }
+  .submit-button{
+      margin: 50px 0 0 0;
+  }
+  .submit-button button{
+      padding: 15px 80px;
+      font-size: 18px;
+      color:#fff;
+      background-color: #0072EF;
+      border: none;
+      border-radius: 5px;
+  }
+  @media(max-width:650px){
+      .form-select select{
+          right: -10px;
+      }
+  }
+  @media(max-width:450px){
+      .form-select select{
+          right: -20px;
+      }
+  }
+  
+  /* HOMEY */
+  .homey-heading{
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  .homey-heading p{
+      margin: auto 0;
+  }
+  .homey-documentation{
+      padding: 20px;
+  }
+  .flex-box{
+      display: grid;
+      justify-content: flex-end;
+      grid-template-columns: 43% 43%;
+      grid-gap: 4%;
+      padding: 20px;
+      margin: 0 0 20px 0;
+  }
+  
+  .flex-box span{
+      font-size: 22px;
+      display: block;
+      margin: 0 0 30px 0;
+      font-weight: 600;
+  }
+  .flex-box p{
+      padding:15px 0;
+      border-bottom: 2px dashed #ddd;
+      
+  }
+  .flex-box p a{
+      color: #111;
+      padding: 5px 10px;
+      border-radius: 3px;
+      font-size: 15px;
+  }
+  .flex-box p a:hover{
+      background-color: #7a7a7a1f;
+  
+  }
+  @media(max-width:830px){
+      .flex-box{
+          display:grid;
+          grid-template-columns: 96%;
+      }
+  }
+  
+  /* homey inner pages */
+  .homey-inner-pages{
+      padding: 0 50px;
+  }
+  .article-line{
+      border-bottom: 2px solid #ddd;
+      border-top: 2px solid #ddd;
+      margin: 20px 0;
+  }
+  .article-line h5{
+      padding: 20px 20px 20px 0px;
+      font-size: 18px;
+      display: inline-block;
+  }
+  .how-to-download-files{
+      font-size: 35px;
+      margin: 30px 0;  
+  }
+  .profile-container{
+      display: flex;
+      justify-content: space-between;
+  }
+  .pic-name-time {
+      display: flex;
+  }
+  .pic-name-time span{
+      margin: 0 0 1px 0;
+      color: #0072EF;
+      display: inline-block;
+      font-size: 19px;
+  }
+  .pic-name-time p{
+      font-size: 17px;
+  }
+  .follow-button{
+    margin: auto 0;
+  }
+  .follow-button button {
+    color: #0072EF;
+    border: 2px solid #0072EF;
+    background:none;
+    padding: 7px 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.follow-button button:hover {
+    color:#fff;
+    background:#0072EF;
+}
